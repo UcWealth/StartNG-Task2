@@ -1,0 +1,22 @@
+/* ======== Add CSS Here ================ */
+
+body {
+    background: #100000;
+}
+.container {
+    background: #fff;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.container header p {
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+.container header img {
+    display: block;
+    margin: auto;
+}
