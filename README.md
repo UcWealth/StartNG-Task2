@@ -1,4 +1,4 @@
-# StartNG-Task2
+# MY CV
 Second Task from the StartDotNG Pre-Internship 
 
 This is the Link to my Lucid Blog Post: https://lucid.blog/ucheokeke16/post/1566576993
