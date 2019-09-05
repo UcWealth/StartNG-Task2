@@ -73,17 +73,17 @@
 
             </table><br><br><br>
         </section>
-
+        
         <section class="form-section">
             <h3>CONTACT ME</h3>
-            <form action="/cgi-bin/test.cgi" name="Form" method="post"  onsubmit="return(validate());">
-               Name: <br><input type = "text" name = "name" id="name" required/>
+            <form action="" name="Form" method="post"  onsubmit="return validate();">
+               Name: <br><input type = "text" name = "name" id="name" minlength="4" required="required"/>
                <br>
-               Email: <br><input type = "text" name = "email" id="email" required/>
+               Email: <br><input type = "text" name = "email" id="email" required="required"/>
                   <br>	
-               Title: <br><input type = "text" name = "title" id="title" required/>
+               Title: <br><input type = "text" name = "title" id="title" minlength="4" required="required"/>
                <br>
-               Message:<br><textarea name="message" id="message" required>Enter message here...</textarea>
+               Message:<br><textarea name="message" id="message" minlength="20" required="required">Enter message here...</textarea>
                <br>
                <br><input type="submit" value="Submit" id="submit" />
             </form><br><br>
